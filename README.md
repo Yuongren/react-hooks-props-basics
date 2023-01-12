@@ -33,7 +33,7 @@ Time to put the **dynamic** aspect of components to use! Let's start with the
 function BlogContent(props) {
   return <div>{props.articleText}</div>;
 }
-```
+```  
 
 You should see something new in the above code. Our function has a parameter
 defined called `props`. Also, inside the return statement, we have this funky
